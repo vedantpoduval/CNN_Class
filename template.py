@@ -1,3 +1,5 @@
+# Note : This is a python script for creating directories and workflow for a typical deep learning project.
+# Note : Empty directories are not pushed by github
 import os
 from pathlib import Path
 import logging
