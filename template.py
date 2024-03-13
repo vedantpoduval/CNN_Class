@@ -25,6 +25,7 @@ files = [
 ]
 
 for file in files:
+    file = Path(file)
     dir,dir_file = os.path.split(file)
 
     if dir != "":
